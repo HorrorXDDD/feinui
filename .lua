@@ -23,10 +23,6 @@ local Tables = {
    "GeometryCSG"
 }
 
-for i,v in pairs(Tables) do
-   memorystats.cache(v)
-end
-
 ------// script ui made by SINISTERRRRRRRRRRRRRRRRRRRRR ---////// obv a joke its velocity_menu
 
 repeat
@@ -1952,9 +1948,4 @@ function library:AddToRegistry(Instance, Properties, IsHud)
                                     library.options["config_box"].refresh(tbl)
                                  end
                               end)()
-
-                              for i,v in pairs(Tables) do
-                                 memorystats.restore(v)
-                              end
-
-                              return library
+return library
