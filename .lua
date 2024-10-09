@@ -23,8 +23,6 @@ local Tables = {
    "GeometryCSG"
 }
 
-------// script ui made by SINISTERRRRRRRRRRRRRRRRRRRRR ---////// obv a joke its velocity_menu
-
 repeat
    task.wait()
 until game:IsLoaded()
